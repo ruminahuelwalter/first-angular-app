@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Output } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from "./navbar/navbar.component";
@@ -12,4 +12,5 @@ import { NavbarComponent } from "./navbar/navbar.component";
 })
 export class AppComponent {
   title = 'homes';
+  public enlaces: string[] = ['Inicio', 'Contacto', 'Acerca de']
 }

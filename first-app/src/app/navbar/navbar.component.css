@@ -1,7 +1,28 @@
-ul li{
-    display: inline;
-    text-align: center;
-    
-
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+li {
+    float: left;
+  
 }
 
+li img{
+    margin-right: 15rem;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    align-items: end;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #615cc7;
+    color: aliceblue;
+}

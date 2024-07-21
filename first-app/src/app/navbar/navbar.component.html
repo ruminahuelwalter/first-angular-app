@@ -1,9 +1,6 @@
 <section class="brand-name">
-    
-        <ul>
-            <li> <img class="brand-logo" src='../assets/logo.svg' alt="logo" aria-hidden="true" /> </li>
-            <li><a> Inicio </a>   </li>
-            <li><a> Contacto </a>   </li>
-            <li><a> Acerca de </a>   </li>
-        </ul>
+    <ul>
+        <li> <img class="brand-logo" src='../assets/logo.svg' alt="logo" aria-hidden="true" /> </li>
+        <li *ngFor="let item of enlacesList"><a> {{ item }} </a>   </li>
+    </ul>
 </section>
